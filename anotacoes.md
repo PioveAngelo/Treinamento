@@ -18,6 +18,8 @@
 
 ## 11/08/2025:
 
-    Concluí um teste com a biblioteca smtplib enviando um e-mail de teste e configurando o servidor para o gmail.
+    Começo de um projeto para testar as bibliotecas pandas, openpyxl, smtplib e requests em conjunto.
 
-    Início de um projeto para testar as bibliotecas pandas, openpyxl, smtplib e requests em forma conjunta.
+    
+
+    * Concluí um teste com a biblioteca smtplib enviando um e-mail de teste e configurando o servidor para o gmail.
