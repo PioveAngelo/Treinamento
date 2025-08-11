@@ -18,8 +18,4 @@
 
 ## 11/08/2025:
 
-    Começo de um projeto de Comparação de preços de E-commerce.
-
-    Nesse projeto irei coletar os dados de produtos usando a biblioteca requests e colocar em uma planilha para fazer um ranking de preços e lojas usando a biblioteca openpyxl e ler esses dados da planilha para enviar por e-mail usnado a biblioteca pandas e a biblioteca smtplib. Fazer dashboards de custo e benefícios.
-
     * Concluí um teste com a biblioteca smtplib enviando um e-mail de teste e configurando o servidor para o gmail.
