@@ -20,6 +20,7 @@
 
     Começo de um projeto para testar as bibliotecas pandas, openpyxl, smtplib e requests em conjunto.
 
-    
 
     * Concluí um teste com a biblioteca smtplib enviando um e-mail de teste e configurando o servidor para o gmail.
+
+    
