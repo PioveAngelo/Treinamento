@@ -23,4 +23,10 @@
 
     * Concluí um teste com a biblioteca smtplib enviando um e-mail de teste e configurando o servidor para o gmail.
 
+## 12/08/2025:
+
+    Continuação do projeto, criei alguns códigos para um teste de criação e envio de notas fiscais por e-mail, um para criar o arquivo.xlsx com os dados de "clientes", um gerando um modelo de nota e incluindo os dados dos "clientes" e gerando um arquivo.xlsx para cada cliente. Por último um código para enviar o e-mail com o arquivo.xlsx anexado.
+    
+    Comecei estudar possíveis bibliotecas para uso, como a biblioteca scrapy e estudo de funcionamentos de APIs.
+
     
