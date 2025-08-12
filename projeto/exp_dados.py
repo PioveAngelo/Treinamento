@@ -1,7 +1,7 @@
 import pandas as pd
 
 dados = {
-    'Nome' : ['Ângelo', 'Emmy'],
+    'Nome' : ['Angelo', 'Emmy'],
     'Email' : ['angelopiovezan15@gmail.com', 'emmyetsc@gmail.com'],
     'Produto' : ['TV', 'Air Fryer'],
     'Quantidade' : [2, 3],
