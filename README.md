@@ -27,28 +27,29 @@ Este projeto tem como objetivo explorar e integrar diversas bibliotecas Python v
     - Estilização de células com `Font` (cores RGB)
     - Testes com gráficos usando `BarChart` e `Reference`
   - **smtplib**: Envio de e-mails via servidor Gmail
-  - **requests**: Preparação para integração com APIs
 
 ### 11/08/2025
 - Início do projeto integrando as bibliotecas estudadas
 - Teste bem-sucedido com `smtplib` para envio de e-mail
 
 ### 12/08/2025
-- Desenvolvimento de um sistema de geração e envio de notas fiscais:
-  - Criação de arquivos `.xlsx` com dados de clientes
-  - Geração de modelos de nota fiscal personalizados
+- Desenvolvimento de um sistema de geração e envio de Boletos:
+  - Criação de arquivos `.xlsx` com dados de fornecedores
+  - Geração de modelos Boletos personalizados
   - Automação do envio de e-mails com os arquivos anexados
 
 ## Bibliotecas Utilizadas
 - `pandas`
 - `openpyxl`
 - `smtplib`
+- `email`
+- `locale`
+- `datetime`
 
 ## Estrutura do Projeto
-- `dados_clientes.xlsx`: Base de dados dos clientes
-- `modelo_nota.xlsx`: Modelo de nota fiscal
-- `nota_Angelo.xlsx`: Arquivos gerados para cada cliente
-- `enviar_nota_email.py`: Script para envio de e-mails com anexos
+- `boleto.xlsx`: Modelo de "Boleto"
+- `config.py`: Script para criação de planilhas e envio de e-mails com anexos
+- `main.py`: Script que importa o config.py e chama as funções feitas
 
 ---
 
