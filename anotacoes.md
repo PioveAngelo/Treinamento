@@ -29,4 +29,8 @@
     
     Comecei estudar possíveis bibliotecas para uso, como a biblioteca scrapy e estudo de funcionamentos de APIs.
 
+## 13/08/2025
+
+    Continuação da leitura do livro Automate the Boring Stuff, começando o capítulo 2.
+    
     

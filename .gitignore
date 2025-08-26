@@ -1,3 +1,13 @@
 # Pipenv
 Pipfile
 Pipfile.lock
+
+# Python
+teste_api
+minha_api.py
+testes.py
+teste_livro.py
+__pycache__
+anotacoes.md
+hotmart
+projeto

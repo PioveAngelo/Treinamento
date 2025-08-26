@@ -1,188 +1,55 @@
-Semana 1 a 2 — Fundamentos & Setup
-
-Objetivos:
-
-    • Compreender automação de processos
-
-    • Configurar o ambiente de desenvolvimento
-
-    • Fundamentos do Git e GitHub
-
-Conteúdo:
-
-    • Conceitos de Automação
-
-    Hyperautomation, RPA vs Python vs Power Automate
-
-    • Git e GitHub:
-
-        o Curso: Git e GitHub para iniciantes (Curso em vídeo)
-
-        o Criar conta GitHub e clonar repositórios
-
-        o Criar repositório do treinamento
-        
-    • Setup Python:
-        o Instalar Python + VS Code + pipenv
-
-        o Repositório estruturado com README.md, requirements.txt e .gitignore
-        
-Desafio:
-
-    • Criar repositório próprio no GitHub e subir o primeiro script de "Hello, World".
-   
-    • Escrever um pequeno artigo no README sobre o que aprenderam.
-
-Semana 3 a 5 — Python para Automação
-
-Objetivos:
-
-    • Automatizar tarefas com arquivos, e-mails, APIs e planilhas
-
-    • Usar bibliotecas como pandas, openpyxl, smtplib, requests 
-
-Conteúdo:
-
-    • Manipulação de arquivos e diretórios
-
-    • Leitura e escrita com Excel (pandas e openpyxl)
-
-    • Envio de e-mails automáticos com smtplib
-
-    • Consumo de APIs REST com requests
-
-    • Tratamento de erros e logs
-
-Fontes:
-
-    • Python para Automação - Hashtag
-
-    • Automate the Boring Stuff (Gratuito)
-
-Desafios:
-
-    • Automatizar envio de e-mail com planilha Excel anexada
-
-    • Criar um script que lê uma planilha de produtos e consulta preços via  API (ex: Mercado Livre ou API simulada)
-
-Semana 6 a 7 — Power Automate (Cloud e Desktop)
-
-Objetivos:
-
-    • Criar fluxos automatizados baseados em gatilhos (emails, pastas, SharePoint)
-
-    • Entender RPA com Power Automate Desktop
-
-Conteúdo:
-
-    • Introdução ao Power Automate
-
-    • Gatilhos e ações com Outlook, SharePoint, OneDrive, Forms
-
-    • Power Automate Desktop: gravação de scripts, leitura de arquivos
-
-Fontes:
-
-    • Microsoft Learn - Power Automate
-
-    • Canal YouTube - MVPs Microsoft
-
-Desafios:
-
-    • Criar um fluxo de aprovação via e-mail
-
-    • Criar automação que salva anexos de e-mails em uma pasta do OneDrive
-
-Semana 8 a 9 — Power Apps
-
-Objetivos:
-
-    • Criar aplicações low-code conectadas ao Excel, SharePoint ou Dataverse
-
-    • Aprender lógica de navegação e layout
-
-Conteúdo:
-
-    • Power Apps Canvas: criação de formulários
-
-    • Conexão com dados (SharePoint, Excel, SQL)
-
-    • Componentes, variáveis e navegação
-
-    • Publicação e controle de acesso
-
-Fontes:
-
-    • Microsoft Learn - Power Apps
-
-    • Canal April Dunnam
-
-Desafios:
-
-    • Criar um app de checklist para inspeção de qualidade
-
-    • Criar app de cadastro de ideias com tela de aprovação
-
-Semana 10 a 11 — Integrações Reais + GitHub
-
-Objetivos:
-
-    • Unir Python + Power Automate + Power Apps
-
-    • Adotar controle de versão real com Git/GitHub
-
-Conteúdo:
-
-    • Webhooks com Power Automate + Python (API Flask)
-
-    • Documentação de projetos com Markdown
-
-    • GitHub Projects ou Issues para organização
-
-    • Git Flow básico: main, dev, feature/*
-
-Desafios:
-
-    • Criar pipeline completo:
-
-        o Formulário no Power Apps
-
-        o Disparo de fluxo no Power Automate
-
-        o Execução de script Python com log de retorno
-
-    • Criar documentação do projeto
-
-Semana 12 — Apresentação + Avaliação
-
-Atividade Final:
-
-    • Apresentação de um mini projeto completo
-
-    • Repositório com:
-
-        o README bem escrito
-
-        o Código com comentários
-
-        o Fluxo no Power Automate
-
-        o App funcional no Power Apps
-
-Recursos Complementares
-
-Cursos:
-
-    • Microsoft Learn - Power Platform
-
-    • FreeCodeCamp Python
-
-    • Curso GitHub com README e Markdown
-
-Canais Recomendados:
-
-    • Hashtag Treinamentos (Python e Power Platform)
-
-    • April Dunnam (Power Apps/Automate)
-    
-    • Jackson Silva (Power Platform em português)
+# Projeto de Automação com Python
+
+Este projeto tem como objetivo explorar e integrar diversas bibliotecas Python voltadas para automação de tarefas, manipulação de dados, geração de arquivos e envio de e-mails.
+
+## Cronograma de Aprendizado
+
+### 07/08/2025
+- Introdução aos conceitos de automação:
+  - **Automação Assistida**
+  - **Automação Não Assistida**
+- Aprendizado sobre **Git** e **GitHub**:
+  - Funcionamento básico
+  - Uso prático para versionamento de código
+
+### 08/08/2025
+- Estudo de bibliotecas Python:
+  - **pandas**: Estruturação de dados em tabelas
+    ```plaintext
+        Name      Age     City
+        Alice     25      Curitiba
+        Bob       30      São Paulo
+        Charlie   35      Belém
+    ```
+  - **openpyxl**:
+    - Criação de arquivos `.xlsx` com `Workbook`
+    - Leitura de arquivos com `load_workbook`
+    - Estilização de células com `Font` (cores RGB)
+    - Testes com gráficos usando `BarChart` e `Reference`
+  - **smtplib**: Envio de e-mails via servidor Gmail
+  - **requests**: Preparação para integração com APIs
+
+### 11/08/2025
+- Início do projeto integrando as bibliotecas estudadas
+- Teste bem-sucedido com `smtplib` para envio de e-mail
+
+### 12/08/2025
+- Desenvolvimento de um sistema de geração e envio de notas fiscais:
+  - Criação de arquivos `.xlsx` com dados de clientes
+  - Geração de modelos de nota fiscal personalizados
+  - Automação do envio de e-mails com os arquivos anexados
+
+## Bibliotecas Utilizadas
+- `pandas`
+- `openpyxl`
+- `smtplib`
+
+## Estrutura do Projeto
+- `dados_clientes.xlsx`: Base de dados dos clientes
+- `modelo_nota.xlsx`: Modelo de nota fiscal
+- `nota_Angelo.xlsx`: Arquivos gerados para cada cliente
+- `enviar_nota_email.py`: Script para envio de e-mails com anexos
+
+---
+
+Este projeto é parte de um treinamento prático em automação com Python, com foco em aplicações reais e integração de ferramentas.
