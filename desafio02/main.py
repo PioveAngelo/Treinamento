@@ -3,6 +3,9 @@ import config
 
 
 def main():
+    '''
+        Função somente para as chamadas dos métodos setados no arquivo config.py
+    '''
     dicionario = {
                 'Fornecedor' : ['fornecedor1', 'fornecedor2', 'fornecedor3', 'fornecedor4'],
                 'Email' : ['angelopiovezan15@gmail.com', 'fornecedor2@email.com', 'fornecedor3@email.com', 'fornecedor4@email.com'],
