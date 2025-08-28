@@ -27,7 +27,7 @@ class Planilha:
         A função gera_boleto() gera um exemplo de boleto muito simples para teste, a partir de um DataFrame da leitura da planilha criada com a função cria_planilha, com os dados lidos da planilha ele pega os dados e inclui em outro arquivo .xlsx em sequência um para cada linha da planilha criada.
     '''
 
-    def cria_planilha(dicionario):
+    def cria_planilha(self, dicionario):
 
         dicionario = {
             'Fornecedor' : ['fornecedor1', 'fornecedor2', 'fornecedor3', 'fornecedor4'],
@@ -43,7 +43,7 @@ class Planilha:
         print(f"Dados salvos com sucesso em {nome_planilha}")
 
 
-    def gera_boleto(df):
+    def gera_boleto(self, df):
 
         df = pd.read_excel('dados_fornecedores.xlsx') # Atribuo a leitura do arquivo gerado na função cria_planilha() à uma variável chamada 'df' de DataFrame.
 
@@ -79,7 +79,7 @@ class Email:
 
         Após atribuir essas configurações iniciamos um loop que pegará as informações do DataFrame fará um e-mail personalizado para cada indivíduo que tem informações no arquivo dados_fornecedores.xlsx.
     '''
-    def configura_envia_email(df):
+    def configura_envia_email(self, df):
 
         df = pd.read_excel('dados_fornecedores.xlsx') # Atribuo à variável df a leitura do DataFrame
 
